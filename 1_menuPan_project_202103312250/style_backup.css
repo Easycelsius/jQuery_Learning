@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('NanumBarunGothic.eot');
+         /* url('NanumBarunGothic.woff') format('woff'),
+         url('NanumBarunGothic.ttf') format('truetype'), */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothicBold';
+    src: url('NanumBarunGothicBold.eot');
+         /* url('NanumBarunGothicBold.woff') format('woff'),
+         url('NanumBarunGothicBold.ttf') format('truetype'), */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 전체 */
+body{
+    font-family: 'NanumBarunGothic', serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 메뉴 전체 */
+#menu_div{
+    float: left;
+    width: 60%;
+    height: 100em;
+}
+
+/* 메뉴 상단 */
+#menu_header_div{
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2em;
+    font-weight: bolder;
+    background: #c8eed9;
+    border-radius: 30px;
+}
+
+/* 메뉴 내부 */
+#menu_coffee_div{
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 5%;
+    /* font-size: 100; */
+    font-weight: normal;
+}
+
+/* 메뉴 내부 div */
+#menu_coffee_div>div{
+    width: 33%;
+    float: left;
+}
+
+/* 메뉴 내부 폰트 */
+#menu_coffee_div>div>div{ 
+    position: relative;
+    bottom: 1.8em;
+    font-size: 80%;
+    line-height: 1em;
+}
+
+/* 이미지에 관한 사항 */
+.imgs{
+    width: 98%;
+    margin-top: 3%;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* 결제창 전부 */
+#sale_div{
+    transition: 1s;
+    margin-left:3%;
+    width: 32%;
+    height: 100%;
+    background: #f8f4e1;
+    border-radius: 30px;
+    float:right;
+}
+
+/* 결제창 상단 */
+#sale_header_div{
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2em;
+    font-weight: bolder;
+    background: #c8eed9;
+    border-radius: 30px 30px 0 0;
+}
+
+/* 총합 textarea */
+#ta{
+    border: solid 1px gray;
+    width: 30%;
+    text-align: right;
+}
+
+/* 결제창 총합 textarea div */
+#sale_complete_div{
+    word-spacing: 0.56em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 2%;
+    text-align: center;
+    font-size: 90%;
+    margin: 0 auto;
+}
+
+/* 결제창 목록 | 개수 | 삭제 */
+table {
+    border-collapse:collapse;
+    font-size:100%;
+    margin:0 0 0 0;
+    width:100%;
+}
+
+/* 테이블 헤드 */
+th {
+    border-bottom: 0.1em solid #e7e7e7;
+    color: #7e7e7e;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+/* 테이블 바디 내부 내용 */
+td {
+    text-align: center;
+    padding: 6px;
+}
+
+/* 표 목록 세부 */
+#th_subject{
+    width: 70%;
+}
+
+/* 결제창 하단 주문하기 */
+#sale_order_div{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+/* 주문하기 버튼 상세 */
+#order_btn{
+    width: 80%;
+    height: 3em;
+    border: solid 1px gray;
+    background: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+

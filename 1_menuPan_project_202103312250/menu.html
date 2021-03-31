@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Our Coffee Menu</title>
+<!-- 스타일시트 -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- jquery 라이브러리 3.6 -->
+<script src="../lib/jquery-3.6.0.js"></script>
+<!-- 자바스크립트 파일 -->
+<script src="javascript.js"></script>
+</head>
+<body>
+    <!-- 좌측 메뉴바 -->
+    <div id='menu_div'>
+        <div id='menu_header_div'>
+            메뉴
+        </div>
+        <div id='menu_coffee_div'>
+            <div>
+                <img src="imgs/espresso.jpg" alt="" class="imgs">
+                <div>
+                    에스프레소 : 7,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/caffe_latte.jpg" alt="" class="imgs">
+                <div>
+                    카페라떼 : 7,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/americano.jpg" alt="" class="imgs">
+                <div>
+                    아메리카노 : 5,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/caffe_mocha.jpg" alt="" class="imgs">
+                <div>
+                    카페모카 : 7,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/hot_chocolate.jpg" alt="" class="imgs">
+                <div>
+                    핫초코 : 4,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/apogato.jpg" alt="" class="imgs">
+                <div>
+                    아포가토 : 8,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/chamomile.jpg" alt="" class="imgs">
+                <div>
+                    국화차 : 7,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/green_tea.jpg" alt="" class="imgs">
+                <div>
+                    녹차 : 7,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/lemon_tea.jpg" alt="" class="imgs">
+                <div>
+                    레몬차 : 2,000원
+                </div>
+            </div>
+            <div>
+                <img src="imgs/small_icecream.jpg" alt="" class="imgs">
+                <div>
+                    아이스크림 : 2,000원
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 우측 결제바 -->
+    <div id='sale_div'>
+        <div id='sale_header_div'>
+            결제창
+        </div>
+        <div id='sale_complete_div'>
+            총합
+            <input type="textarea" id="ta" readonly> 원
+            
+        </div>
+        <div id='sale_history_div'>
+            <table id="tbl">
+                <thead id='th'>
+                    <tr>
+                        <th id='th_subject'>목록</th>
+                        <th>갯수</th>
+                        <th>삭제</th>
+                    </tr>
+                </thead>
+                <tbody id='tb'>
+
+                </tbody>
+            </table>
+        </div>
+        <div id='sale_order_div'>
+            <button id="order_btn">주문하기</button>
+        </div>
+    </div>
+</body>
+</html>
